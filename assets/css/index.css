@@ -1,0 +1,23 @@
+body {
+  font-family: "Lato", sans-serif;
+  background: #00247d;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* margin-right: -50%; */
+  transform: translate(-43%, -50%) ;
+  font-weight: 700;
+  width: 80%;
+  font-size: 60pt;
+}
+
+.red {
+  color: #cf142b;
+}
+
+.white {
+  color: white;
+}
