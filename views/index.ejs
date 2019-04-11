@@ -1,1 +1,15 @@
-<div class='centered'><span class='white' >BREXIT IS ON </span><span class="red"><%- data.brexitDate %></span></div>
+<div class='centered'><span class='white'>BREXIT IS ON </span><span id="brexittext" class="red"><%- data.brexitDate %></span></div>
+<script>
+    let brexitText = document.getElementById("brexittext")
+
+    brexitText.addEventListener("mouseover", mouseOver);
+    brexitText.addEventListener("mouseout", mouseOut);
+
+    function mouseOver() {
+        brexitText.innerHTML = "New Date";
+    }
+
+    function mouseOut() {
+        brexitText.innerHTML = "OCTOBER 31, 2019";
+    }
+</script>
