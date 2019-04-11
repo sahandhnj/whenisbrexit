@@ -1,0 +1,7 @@
+[
+	{
+		"name": "whenisbrexit",
+		"script": "npm run-script start",
+		"log_date_format": "YYYY-MM-DD HH:mm:ss"
+	}
+]

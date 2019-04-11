@@ -5,13 +5,12 @@ body {
 
 .centered {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  /* margin-right: -50%; */
-  transform: translate(-43%, -50%) ;
+  top: 42%;
+  left: 5%;
   font-weight: 700;
-  width: 80%;
-  font-size: 60pt;
+  width: 100%;
+  font-size: 10vw;
+  margin-top: -10vw;
 }
 
 .red {
