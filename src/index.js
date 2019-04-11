@@ -18,7 +18,7 @@ app.use(
     route.get("/", async ctx =>{
         await ctx.render("index",  {
             data: {
-                brexitDate: "APRIL 12th, 2019"
+                brexitDate: "OCTOBER 31th, 2019"
             }
         });
     })
